@@ -9,7 +9,7 @@ public class FindMaxNumber {
 				max=i;
 			}
 		}
-		System.out.println(max+" ");		
+		System.out.println("Maximum Number: "+ max);		
 	}
 
 	public static<E>void printArr(E[] element) {	 
@@ -22,8 +22,14 @@ public class FindMaxNumber {
 
 	public static void main(String[] args) {
 		Integer[] integerArray= {10,20,30,40,10};
+		Double[] doubleArr= {100.0,200.0,300.0,400.0};
+
 		printArr(integerArray);
 		maxFind(integerArray);
+		
+		printArr(doubleArr);
+		maxFind(doubleArr);
+
 
 	}
 }
