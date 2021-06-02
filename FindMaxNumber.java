@@ -22,6 +22,7 @@ public class FindMaxNumber {
 
 	public static void main(String[] args) {
 		Integer[] integerArray= {10,20,30,40,10};
+		printArr(integerArray);
 		maxFind(integerArray);
 
 	}
